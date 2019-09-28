@@ -3,8 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
 
-const indexPage = () => {
-  return (
+const indexPage = () => (
+
     <div>
       <h1>Oops! Something went wrong</h1>
       <p>Try 
@@ -13,7 +13,7 @@ const indexPage = () => {
         </Link>.
       </p>
     </div>
-  );
-};
+
+);
 
 export default indexPage;
